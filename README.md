@@ -1,5 +1,7 @@
 # Dotfiles (Adapted from [Mathias Bynens's](https://github.com/mathiasbynens/dotfiles))
 
+![Screenshot of my shell prompt](http://i.imgur.com/Eo6jPNB.png)
+
 ## Installation
 
 ### Using Git and the bootstrap script
