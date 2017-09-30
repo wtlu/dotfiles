@@ -1,5 +1,10 @@
-# Make vim the default editor
+#!/usr/bin/env bash
+
+# Make sublime the default editor
 export EDITOR="subl -w";
+
+# Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
+export PYTHONIOENCODING='UTF-8';
 
 # Larger bash history (allow 32³ entries; default is 500)
 export HISTSIZE=32768;
@@ -17,9 +22,6 @@ export LESS_TERMCAP_md="${yellow}";
 
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X";
-
-# Always enable colored `grep` output
-export GREP_OPTIONS="--color=auto";
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications";
